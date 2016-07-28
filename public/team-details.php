@@ -2,12 +2,8 @@
 require __DIR__ . '/../src/input.php';
 function pageController()
 {
-    // The team's ID should be part of the query string.
     $teamId = Input::get('team_id');
-    // Write the SELECT statement to populate the form with the details of a
-    // team using its ID.
     $select = "SELECT * FROM teams WHERE id = $teamId";
-    // Copy the resulting query and verify that it runs using the terminal
     var_dump($select);
     return [
         'title' => 'Texas Rangers'
