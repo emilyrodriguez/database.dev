@@ -1,0 +1,1 @@
+Creating database of MLB teams using MySQL, HTML, PHP and Bootstrap.
